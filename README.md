@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
@@ -38,3 +39,41 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+=======
+# NextSketch_AI
+A Next.js + TypeScript app for turning freehand sketches into AI-generated images using Stability AI.
+
+is a modern web app that lets you draw on a canvas and turn your sketches into AI-generated images using **Stability AI**. Built with **Next.js + TypeScript + Tailwind CSS**.
+
+## 🚀 Features
+
+- 🖌️ **Drawing Canvas** — freehand drawing with mouse support (zoom & pan)  
+- ↩️ **Undo / Redo** — revert or redo strokes easily  
+- 🎨 **Brush Color & Size** — adjustable color and stroke thickness  
+- 💾 **Save & Load Projects** — stores your sketches in browser LocalStorage  
+- ✍️ **Prompt Input** — describe what the AI should generate  
+- 🤖 **AI Image Generation** — send your sketch & prompt to Stability AI  
+- 📥 **Download Images** — export generated results as PNG  
+- 💡 **Prompt Suggestions** — optional AI suggestions via `/api/suggest`
+
+## 🛠️ Tech Stack
+
+- **Frontend:** [Next.js] + [TypeScript]
+- **Styling:** [Tailwind CSS]
+- **AI Service:** [Stability AI Image API]
+- **State Management:** React Hooks (useState, useEffect, useRef)  
+- **Storage:** Browser LocalStorage
+
+## ⚡ Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/batuhanyigitt/NextSketch_AI.git
+cd NextSketch_AI
+
+# Install dependencies
+yarn install
+
+# Start development server
+yarn dev
+>>>>>>> 4ddcff77e9f35b042e6eb8f0d1c61642691ccf7d
