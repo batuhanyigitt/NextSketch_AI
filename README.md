@@ -26,8 +26,8 @@ is a modern web app that lets you draw on a canvas and turn your sketches into A
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ai-sketch-studio.git
-cd ai-sketch-studio
+git clone https://github.com/batuhanyigitt/NextSketch_AI.git
+cd NextSketch_AI
 
 # Install dependencies
 yarn install
